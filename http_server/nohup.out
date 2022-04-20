@@ -1,0 +1,30 @@
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD | ROUTE |     HANDLER     | MIDDLEWARE  
+----------|---------|---------|--------|-------|-----------------|-------------
+  default | default | :63199  | ALL    | /     | main.main.func1 |             
+----------|---------|---------|--------|-------|-----------------|-------------
+ 
+2022-04-14 13:53:44.591 5254: http server started listening on [:63199] 
+2022-04-14 13:54:03.896 {"id":"20220414135403872467","pushTime":1649915643872,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:43.555 {"id":"20220414135443547918","pushTime":1649915683547,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:45.409 {"id":"20220414135445401555","pushTime":1649915685401,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:49.923 {"id":"20220414135449915301","pushTime":1649915689915,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:50.858 {"id":"20220414135450850334","pushTime":1649915690850,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:51.454 {"id":"20220414135451446543","pushTime":1649915691446,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:51.940 {"id":"20220414135451932947","pushTime":1649915691932,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:52.286 {"id":"20220414135452278985","pushTime":1649915692278,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:52.443 {"id":"20220414135452435236","pushTime":1649915692435,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:52.639 {"id":"20220414135452631930","pushTime":1649915692631,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:52.828 {"id":"20220414135452820206","pushTime":1649915692820,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:53.030 {"id":"20220414135453022542","pushTime":1649915693022,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:54:53.212 {"id":"20220414135453204519","pushTime":1649915693204,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:55:16.138 {"id":"20220414135516129348","pushTime":1649915716129,"type":"goods.price.alter","data":{"goodsIds":[1111]},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:55:21.336 {"id":"20220414135521328612","pushTime":1649915721328,"type":"afterSale.success","data":{"afterSaleId":"11","orderSn":"111","sku":"22"},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:55:27.067 {"id":"20220414135527059180","pushTime":1649915727059,"type":"afterSale.agree","data":{"afterSaleId":"","orderSn":"","sku":""},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:55:29.972 {"id":"20220414135529964433","pushTime":1649915729964,"type":"afterSale.agree","data":{"afterSaleId":"","orderSn":"","sku":""},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:55:35.036 {"id":"20220414135535028773","pushTime":1649915735028,"type":"order.success","data":{"orderSn":"","sku":""},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:55:35.217 {"id":"20220414135535209222","pushTime":1649915735209,"type":"order.success","data":{"orderSn":"","sku":""},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:55:35.385 {"id":"20220414135535377529","pushTime":1649915735377,"type":"order.success","data":{"orderSn":"","sku":""},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:55:35.532 {"id":"20220414135535524977","pushTime":1649915735524,"type":"order.success","data":{"orderSn":"","sku":""},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:56:12.006 {"id":"20220414135611997293","pushTime":1649915771997,"type":"order.delivered","data":{"orderSn":"","sku":""},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
+2022-04-14 13:56:24.145 {"id":"20220414135624137193","pushTime":1649915784137,"type":"afterSale.refuse","data":{"afterSaleId":"","orderSn":"","sku":""},"times":0,"createTime":0,"url":"http://111.229.184.119:63199","appID":8864} 
